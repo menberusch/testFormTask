@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Issue report</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+
+  <form class="issuesForm row">
+    
+    <div class="col-md-6 col-12">
+
+      <div class="form-group">
+        <label for="nameInput">Your Name</label>
+        <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Enter name">
+        <small id="nameHelp" class="form-text text-muted">
+          Your name should contain only letters and spaces.
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="emailInput">Email address *</label>
+        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required>
+        <small id="emailHelp" class="form-text text-muted">
+          Your email must be from
+          <a class="text-muted" href="https://accounts.google.com/SignUp">gmail.com</a> or
+          <a class="text-muted" href="https://outlook.live.com/owa/?nlp=1&signup=1">outlook.com</a>.
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="issueSelect">Choose issue type *</label>
+        <select class="form-control" id="issueSelect" required>
+          <option value="" selected><i class="text-muted">Choose your problem..<i></option>
+          <option value="tech">Technical problem</option>
+          <option value="services">Services problem</option>
+          <option value="connection">Connection problem</option>
+        </select>
+      </div>
+      <button type="reset" class="btn btn-light">Clear</button>
+      <button type="button" id="exampleBtn" class="btn btn-light">Example</button>
+
+    </div>
+
+    <div class="col-md-6 col-12">
+
+      <div class="form-group">
+        <label for="issueDesc">Describe your issue: *</label>
+        <textarea aria-describedby="issueDescHelp" rows="5" class="form-control" id="issueDesc" required></textarea>
+        <small id="issueDescHelp" class="form-text text-muted">
+          Be sure to use min 5 characters and max 300 characters.
+        </small>
+      </div>
+          
+      <div class="image-upload d-flex">
+
+        <div class="form-group">
+          <label for="uploadImage">Upload issue image: </label>
+          <input id="uploadImage" type="file" accept="image/*">
+        </div>
+
+        <div class="image-preview">
+          <img id="issueImage" src="" alt="Your image issue">
+        </div>
+      </div>
+    </div>
+    <button type="button" id="sendData" disabled="" class="btn btn-primary btn-lg">Send</button>
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import './bs4/bootstrap-reboot';
+@import './bs4/bootstrap-grid';
+@import './bs4/forms';
+@import './bs4/modal';
+@import './bs4/utilities/text';
+@import './bs4/buttons';
+@import './bs4/input-group';
+
+small {
+  font-size: .7em;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+textarea.form-control {
+  height: 100%;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.image-upload {
+  margin-top: 35px;
+  height: 200px;
+}
+
+.image-preview {
+  opacity: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.btn-lg {
+  padding: 8px 40px;
+  margin: 20px auto 0;
+}

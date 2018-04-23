@@ -1,0 +1,52 @@
+{
+  "_from": "bootstrap-scss",
+  "_id": "bootstrap-scss@4.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-BE1Y7q/lh3y+cq2Rx9DhU1xbc9yZ+2PWQ0GfVbwkhnk9eVpjJaKGdvrB0iMv/zur2mIgm+TuW/c6LEq3ZzN1fw==",
+  "_location": "/bootstrap-scss",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-scss",
+    "name": "bootstrap-scss",
+    "escapedName": "bootstrap-scss",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-scss/-/bootstrap-scss-4.1.0.tgz",
+  "_shasum": "fa6c9ef27b8923b978a00aa94c3cc59f1ab8c59b",
+  "_spec": "bootstrap-scss",
+  "_where": "C:\\Users\\menberusch\\Desktop\\test_task",
+  "author": {
+    "name": "Cristian Trifan",
+    "email": "criss.trifan@gmail.com",
+    "url": "https://crissdev.com"
+  },
+  "bugs": {
+    "url": "https://github.com/crissdev/bootstrap-scss/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Bootstrap's SCSS files (only)",
+  "homepage": "https://github.com/crissdev/bootstrap-scss",
+  "keywords": [
+    "bootstrap",
+    "bootstrap-scss",
+    "responsive",
+    "scss"
+  ],
+  "license": "MIT",
+  "main": "bootstrap.scss",
+  "name": "bootstrap-scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crissdev/bootstrap-scss.git"
+  },
+  "version": "4.1.0"
+}
